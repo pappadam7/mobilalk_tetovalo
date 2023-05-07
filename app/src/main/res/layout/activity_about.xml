@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".About">
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomMenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:menu="@menu/menu" />
+
+    <TextView
+        android:id="@+id/textTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/tattoo_studio"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <LinearLayout
+        android:id="@+id/firstSection"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+
+        app:layout_constraintTop_toBottomOf="@+id/textTitle">
+
+        <ImageView
+            android:id="@+id/first"
+            android:layout_width="150dp"
+            android:layout_height="215dp"
+            android:layout_marginStart="@dimen/imagine_default_margin"
+            android:layout_marginTop="@dimen/imagine_default_margin"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:srcCompat="@drawable/clock" />
+
+        <TextView
+            android:id="@+id/textFirst"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="@dimen/imagine_default_margin"
+            android:text="@string/first_text"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/first" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/secondSection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/firstSection">
+
+
+        <TextView
+            android:id="@+id/textSecond"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="@dimen/imagine_default_margin"
+            android:layout_weight="1"
+            android:text="@string/second_text"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            />
+
+
+        <ImageView
+            android:id="@+id/second"
+            android:layout_width="156dp"
+            android:layout_height="215dp"
+            android:layout_marginEnd="@dimen/imagine_default_margin"
+            android:layout_marginTop="@dimen/imagine_default_margin"
+            app:srcCompat="@drawable/calihmounstro_480x480" />
+    </LinearLayout>
+    <!--TODO ha lesz idő akkor további munkáink és pár kép-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>

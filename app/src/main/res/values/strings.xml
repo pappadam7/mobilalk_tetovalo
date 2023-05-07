@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">tetovalo_idopontfoglalo</string>
+    <string name="hello_world">Hello World!</string>
+    <string name="email">Email</string>
+    <string name="password">Jelszó</string>
+    <string name="login">Bejelentkezés</string>
+    <string name="register">Regisztráció</string>
+    <string name="password_again">Jelszó újra</string>
+    <string name="phone_number">Telefonszám</string>
+    <string name="have_account">Van már fiókod?</string>
+    <string name="tattoo_studio">Tik Tetkó</string>
+    <string name="first_text">Nálunk az árak és a minták is a Te ötleteidtől függnek</string>
+    <string name="already_have_acc">Van már fiókom</string>
+    <string name="second_text">Azoknak is, akik animés tetoválást szeretnének varratni</string>
+    <string name="my_appointments">Időpontjaim</string>
+    <string name="new_appointment">Új időpont foglalás</string>
+    <string name="short_description">Írj rövid leírást a tetkóról</string>
+    <string name="login_with_google">Bejelentkezés Google fiókkal</string>
+    <string name="submit">Foglalás</string>
+    <string name="home">Főoldal</string>
+    <string name="appointment">Időpont foglalás</string>
+    <string name="myAppointments">Időpontjaim</string>
+    <string name="list_placeholder">Leiras</string>
+    <string name="change_appointment">Időpont szerkesztése</string>
+    <string name="delete_appointment">Törlés</string>
+</resources>

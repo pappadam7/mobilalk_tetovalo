@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/baseline_home_24"
+        android:title="@string/home"
+        app:showAsAction="ifRoom"
+        app:actionViewClass="android.app.MediaRouteButton"/>
+
+    <item
+        android:id="@+id/date"
+        android:icon="@drawable/baseline_edit_calendar_24"
+        android:title="@string/appointment"
+        app:showAsAction="ifRoom"
+        app:actionViewClass="android.app.MediaRouteButton"/>
+
+    <item
+        android:id="@+id/myDate"
+        android:icon="@drawable/baseline_date_range_24"
+        android:title="@string/myAppointments"
+        app:showAsAction="ifRoom"
+        app:actionViewClass="android.app.MediaRouteButton"/>
+
+</menu>

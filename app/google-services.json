@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "459072779326",
+    "project_id": "android-tetovalo-idopont",
+    "storage_bucket": "android-tetovalo-idopont.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:459072779326:android:c4448d4a197b5f487ccd6f",
+        "android_client_info": {
+          "package_name": "com.example.tetovalo_idopontfoglalo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "459072779326-dbuuiericevvju565resldn9cbk5krjf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCS8rNgVxhpcSZeJXToTvsBwKwuI7lsGbA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "459072779326-dbuuiericevvju565resldn9cbk5krjf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

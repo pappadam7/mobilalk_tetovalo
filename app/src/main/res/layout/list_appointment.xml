@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="8dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/listImage"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:adjustViewBounds="true"
+            app:srcCompat="@drawable/baseline_hide_image_24"/>
+
+        <TextView
+            android:id="@+id/textViewDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:lines="2"
+            android:layout_toRightOf="@id/listImage"
+            android:text="@string/list_placeholder" />
+
+        <TextView
+            android:id="@+id/textViewAppointment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/listImage"
+            android:layout_below="@id/textViewDescription"
+            android:text="@string/list_placeholder" />
+
+        <Button
+            android:id="@+id/buttonChangeAppointment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textViewAppointment"
+            android:layout_toRightOf="@id/listImage"
+            android:text="@string/change_appointment" />
+
+        <Button
+            android:id="@+id/buttonDeleteAppointment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/buttonChangeAppointment"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="4dp"
+            android:layout_toRightOf="@id/listImage"
+            android:text="@string/delete_appointment" />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
